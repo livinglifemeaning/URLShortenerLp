@@ -1,0 +1,17 @@
+.footer{
+    background-color: var(--c-n700); 
+    padding: 4rem var(--p-mobile);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+@media (min-width: 750px) {
+    .footer{
+        padding: 5rem var(--p-desktop);
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+ 
+}

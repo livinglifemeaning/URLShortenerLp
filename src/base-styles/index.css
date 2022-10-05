@@ -1,0 +1,9 @@
+@import "./reset.css";
+@import "./variables.css"; 
+
+body{
+    font-family: var(--f-primary);
+}
+main{
+    overflow-x: hidden; 
+}

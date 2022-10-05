@@ -1,0 +1,14 @@
+.heading{
+    padding: 2rem var(--p-mobile); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+@media (min-width: 750px) {
+    .heading{
+       padding: 3rem var(--p-desktop) 5rem;
+       justify-content: flex-start;
+       gap: 3rem; 
+    }
+}

@@ -1,0 +1,28 @@
+.btn{
+    color: #fff; 
+    cursor: pointer; 
+    font-weight: 700; 
+    text-align: center; 
+    padding: .8rem 2.5rem; 
+    font-size: 1.1rem; 
+}
+
+.btn:active{
+    scale: .98; 
+}
+
+.cyan{
+    background-color: var(--c-cyan);
+}
+
+.dark{
+    background-color: var(--c-violet);
+}
+
+.circle{
+    border-radius: 50px; 
+}
+
+.square{
+    border-radius: 5px; 
+}
