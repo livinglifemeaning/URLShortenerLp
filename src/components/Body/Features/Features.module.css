@@ -38,10 +38,16 @@
 }
 
 @media (min-width: 750px) {
+    .features{
+        margin-top: 5rem; 
+    }
     .featuresBox{
         flex-direction: row;
         gap: 2rem; 
         margin-bottom: 7rem; 
+    }
+    .title{
+        font-size: 2.3rem;
     }
     .textBox{
         margin-bottom: 2rem;
